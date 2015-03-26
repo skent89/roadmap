@@ -96,5 +96,6 @@ Some of the things we have on our radar but are not yet slated to start yet are 
 - Amsterdam facility online
 - Hong Kong facility online
 - [libcloud](http://libcloud.apache.org/) integration
+- [fog](http://fog.io) integration
 - Organizations / companies in portal
 - Cross facility anycast / multicast networking
