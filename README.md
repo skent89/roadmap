@@ -12,21 +12,34 @@ suggestions, and feedback!
 
 These are things that we are actively working on
 
-**API and client portal**
+**Public Website**
+- [ ] Knowledgebase online
+- [ ] API Documentation
+- [ ] Network Transit and IP Providers map
+
+**API and Client Portal**
+- [X] Userdata in device provisioning
+- [X] Project based collaborative device management
+- [X] Two factor auth
+- [X] Ability to transfer billing and project ownership
+- [X] Web-based out of band console
+- [ ] Segmented network usage graphs
 - [ ] PHP API Client
 - [ ] Go API Client
 - [ ] Ruby API Client
-- [ ] API Documentation live
 
 **Network and Facilities**
 - [X] EWR, Parsippany Facility online
 - [X] NY Metro Fiber Ring Online
 - [X] Peering network online
 - [X] Bare Metal 1 Servers Deployed
-- [ ] San Jose facility online: Q3 2015
-- [ ] Network Status page online
+- [ ] San Jose facility online
+- [ ] Client VPN
 
-**Distributions**
+**Platform**
+- [X] Metadata service online
+- [X] Custom datasource for cloud-init
+- [X] IPMI / snmp hardware health monitoring
 - [ ] Distro: Centos 6
 - [X] Distro: Centos 7
 - [ ] Distro: Debian 6
@@ -39,9 +52,6 @@ These are things that we are actively working on
 **Labs**
 - [ ] PacketBots in the client portal
 - [ ] PacketBots return geographic location via GeoIp lookup
-
-**Reliability and performance**
-- [ ] Restart system components in case of crash (#2884)
 
 **Mobile Apps**
 - [ ] Android App v1
@@ -56,10 +66,12 @@ These are things that we are actively working on
 # On Deck
 
 These are things that we will focus on next as we complete other tasks
-**API and client portal**
+
+**API and Client Portal**
 - Python API Client
 - Per-project / per-device ssh keys
 - Userdata profiles (ability to save and reuse userdata configs)
+- Destination Based Bandwidth Billing
 
 **Network and Facilities**
 - Bare Metal 2 Servers Deployed
